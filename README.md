@@ -1,5 +1,4 @@
-# Project 1
-Building a FAST[AQ] Parser + Building a DNA -> RNA Transcriber
+# Project 1: Building a FAST[AQ] Parser + Building a DNA -> RNA Transcriber
 
 # Assignment Overview
 The purpose of this assignment is to bring everybody up to speed on using python and highlight some of the elements of the language and of OOP that will be _inherited_ by downstream course content. We also hope to use this as an opportunity to learn some of the useful tools within github for software development that will be useful to you in your research experiences down the road. 
@@ -15,13 +14,13 @@ The learning goals of this project are:
 
 ## Coding Assessment 
 We've provided for you a basic Fasta and Fastq parser (written out in the parse.py file) to allow parsing of a Fasta and Fastq file using an iterator. Please take a look at that script to familiarize yourself with the functions. 
-### Assignment tasks
-- [ ] Write a Transcription Function (Write this code in the seq.py file). 
-- [ ] Write a Reverse Transcription Function (Write this code in the seq.py file). 
+
+- [x] Write a Transcription Function (Write this code in the seq.py file). 
+- [x] Write a Reverse Transcription Function (Write this code in the seq.py file). 
 
 ## Software Development Assessment 
 - [ ] Create a pip installable tool (only locally, do not submit to PyPI)
-	- [ ] Edit the `pyproject.toml` file to reflect author information
+	- [x] Edit the `pyproject.toml` file to reflect author information
 	- [ ] Update the dependencies to include those that you use in your code
 
 - [  ] Write a unit test (in the test.py file) for
